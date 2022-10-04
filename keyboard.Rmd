@@ -1,0 +1,11 @@
+---
+title: "Keyboard Walk MCMC"
+author: "Diego Gomez"
+date: "9/25/2022"
+output: pdf_document
+---
+
+The transition matrix $\mathbf{M}$ is defined by a $47\mathrm{x}47$ indexed by $\mathcal{C}=\{a,b,c,...0\}$ which will include all keys typically used in passwords (letters, numbers and characters). Capitalization, and accessing the characters that are present in numbered keys will be accessed operationally. 
+
+For example a keyboard walk starting at the letter $\mathrm{Q}$, would have a high probability of jumping to the keys that are directly next to it, $\{\mathrm{W},\mathrm{A}, 1\}$ and a lower probability of jumping to any other key.
+
